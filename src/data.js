@@ -73,7 +73,7 @@ export const services = [
 export const tours = [
   {
     id: 1,
-    img: img1,
+    picture: img1,
     location: 'thailand',
     title: 'Temple',
     price: '1200',
@@ -82,7 +82,7 @@ export const tours = [
   },
   {
     id: 2,
-    img: img2,
+    picture: img2,
     location: 'japan',
     title: 'cherry blossom',
     price: '6000',
@@ -91,7 +91,7 @@ export const tours = [
   },
   {
     id: 3,
-    img: img3,
+    picture: img3,
     location: 'karela',
     title: 'Boat ride',
     price: '4000',
@@ -100,7 +100,7 @@ export const tours = [
   },
   {
     id: 4,
-    img: img4,
+    picture: img4,
     location: 'india',
     title: 'rann of kutch',
     price: '400',
@@ -118,7 +118,7 @@ export const tours = [
   },
   {
     id: 6,
-    img: img6,
+    picture: img6,
     location: 'maldives',
     title: 'Honeymoon',
     price: '1800',
@@ -127,7 +127,7 @@ export const tours = [
   },
   {
     id: 7,
-    img: img7,
+    picture: img7,
     location: 'nepal',
     title: 'Honeymoon',
     price: '3000',
@@ -136,7 +136,7 @@ export const tours = [
   },
   {
     id: 8,
-    img: img8,
+    picture: img8,
     location: 'mauritius',
     title: 'Honeymoon',
     price: '3000',

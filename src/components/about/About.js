@@ -1,5 +1,6 @@
+import img from '../../imgs/img-3.jpg';
 import SectionTitle from '../util/SectionTitle';
-import img from '/Users/yaw/Desktop/react/web-app/src/imgs/img-3.jpg';
+
 const About = () => {
   return (
     <section className="about" id="about">
