@@ -1,6 +1,7 @@
 
 import React from "react";
 import ReactDOM from "react-dom/client";
+import About from "./components/about/about.js";
 import Footer from "./components/footer/Footer.js";
 import Hero from "./components/hero/Hero.js";
 import Navbar from "./components/navbar/Navbar.js";
@@ -13,7 +14,7 @@ const App = () => {
     <>
       <Navbar />
       <Hero />
-      <AboutUs />
+      <About />
       <Services />
       <Tours />
       <Footer />

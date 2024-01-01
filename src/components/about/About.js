@@ -7,7 +7,7 @@ const About = () => {
       <SectionTitle title='about' subTitle='us' />
       <article className='about-center'>
         <div className='about-img-container'>
-          <img src={img} alt='image' />
+          <img src={img} alt='img' />
         </div>
         <div className="about-data">
           <h2>who we are</h2>
