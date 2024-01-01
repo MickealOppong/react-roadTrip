@@ -7,16 +7,15 @@ const About = () => {
       <SectionTitle title='about' subTitle='us' />
       <article className='about-center'>
         <div className='about-img-container'>
-          <img src={img} />
+          <img src={img} alt='image' />
         </div>
-
         <div className="about-data">
           <h2>who we are</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum  officia quaerat assumenda nulla, distinctio architecto ad minus
           </p><p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum officia quaerat assumenda nulla, distinctio architecto ad minus
           </p>
-          <a href="#">read more</a>
+          <a href="#tours">read more</a>
         </div>
       </article>
     </section>

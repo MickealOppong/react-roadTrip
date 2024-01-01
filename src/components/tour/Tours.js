@@ -12,7 +12,7 @@ const Tour = () => {
             return (
               <article className="tour" key={id}>
                 <div className="tour-img-container">
-                  <img src={picture} />
+                  <img src={picture} alt="title" />
                 </div>
                 <div className="tour-content">
                   <h4>{title}</h4>
