@@ -8,11 +8,11 @@ const Tour = () => {
       <div className="tours-center">
         {
           tours.map((tour) => {
-            const { id, location, title, duration, price, picture, icon } = tour;
+            const { id, location, title, duration, price, img, icon } = tour;
             return (
               <article className="tour" key={id}>
                 <div className="tour-img-container">
-                  <img src={picture} alt="title" />
+                  <img src={img} alt="title" />
                 </div>
                 <div className="tour-content">
                   <h4>{title}</h4>
